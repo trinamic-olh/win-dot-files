@@ -1,0 +1,601 @@
+{
+    "$help": "https://aka.ms/terminal-documentation",
+    "$schema": "https://aka.ms/terminal-profiles-schema-preview",
+    "actions": 
+    [
+        {
+            "command": 
+            {
+                "action": "scrollToMark",
+                "direction": "previous"
+            },
+            "id": "User.scrollToMark.prev"
+        },
+        {
+            "command": 
+            {
+                "action": "scrollToMark",
+                "direction": "next"
+            },
+            "id": "User.scrollToMark.next"
+        },
+        {
+            "command":
+            {
+                "action": "selectCommand",
+                "direction": "prev"
+            },
+            "id": "User.selectCommand.prev"
+        },
+        {
+            "command":
+            {
+                "action": "selectCommand",
+                "direction": "next"
+            },
+            "id": "User.selectCommand.next"
+        },
+        {
+            "command": 
+            {
+                "action": "prevTab",
+                "tabSwitcherMode": "disabled"
+            },
+            "id": "User.switchToTab.prev"
+        },
+        {
+            "command": 
+            {
+                "action": "nextTab",
+                "tabSwitcherMode": "disabled"
+            },
+            "id": "User.switchToTab.next"
+        },
+        {
+            "command": 
+            {
+                "action": "nextTab",
+                "tabSwitcherMode": "mru"
+            },
+            "id": "User.switchToTab.lastUsed"
+        }
+    ],
+    "alwaysShowNotificationIcon": false,
+    "compatibility.enableUnfocusedAcrylic": false,
+    "copyFormatting": "none",
+    "copyOnSelect": true,
+    "defaultProfile": "{1ce13ac7-07ef-5585-99d2-b71e6d33576e}",
+    "disableAnimations": true,
+    "experimental.scrollToChangeOpacity": false,
+    "initialCols": 100,
+    "initialPosition": ",",
+    "initialRows": 35,
+    "keybindings": 
+    [
+        { "keys": "enter", "id": null },
+        { "keys": "f11", "id": null },
+        { "keys": "alt+enter", "id": null },
+        { "keys": "alt+space", "id": null },
+        { "keys": "alt+down", "id": null },
+        { "keys": "alt+left", "id": null },
+        { "keys": "alt+right", "id": null },
+        { "keys": "alt+up", "id": null },
+        { "keys": "alt+f4", "id": null },
+        { "keys": "alt+shift+d", "id": null },
+        { "keys": "alt+shift+minus", "id": null },
+        { "keys": "alt+shift+plus", "id": null },
+        { "keys": "alt+shift+down", "id": null },
+        { "keys": "alt+shift+left", "id": null },
+        { "keys": "alt+shift+right", "id": null },
+        { "keys": "alt+shift+up", "id": null },
+        { "keys": "ctrl+c", "id": null },
+        { "keys": "ctrl+v", "id": null },
+        { "keys": "ctrl+,", "id": null },
+        { "keys": "ctrl+0", "id": null },
+        { "keys": "ctrl+minus", "id": null },
+        { "keys": "ctrl+numpad_minus", "id": null },
+        { "keys": "ctrl+numpad_plus", "id": null },
+        { "keys": "ctrl+numpad_0", "id": null },
+        { "keys": "ctrl+plus", "id": null },
+        { "keys": "ctrl+insert", "id": null },
+        { "keys": "ctrl+tab", "id": null },
+        { "keys": "ctrl+alt+1", "id": null },
+        { "keys": "ctrl+alt+2", "id": null },
+        { "keys": "ctrl+alt+3", "id": null },
+        { "keys": "ctrl+alt+4", "id": null },
+        { "keys": "ctrl+alt+5", "id": null },
+        { "keys": "ctrl+alt+6", "id": null },
+        { "keys": "ctrl+alt+7", "id": null },
+        { "keys": "ctrl+alt+8", "id": null },
+        { "keys": "ctrl+alt+9", "id": null },
+        { "keys": "ctrl+alt+,", "id": null },
+        { "keys": "ctrl+alt+left", "id": null },
+        { "keys": "ctrl+shift+a", "id": null },
+        { "keys": "ctrl+shift+c", "id": null },
+        { "keys": "ctrl+shift+d", "id": null },
+        { "keys": "ctrl+shift+f", "id": null },
+        { "keys": "ctrl+shift+m", "id": null },
+        { "keys": "ctrl+shift+n", "id": null },
+        { "keys": "ctrl+shift+p", "id": null },
+        { "keys": "ctrl+shift+t", "id": null },
+        { "keys": "ctrl+shift+w", "id": null },
+        { "keys": "ctrl+shift+1", "id": null },
+        { "keys": "ctrl+shift+2", "id": null },
+        { "keys": "ctrl+shift+3", "id": null },
+        { "keys": "ctrl+shift+4", "id": null },
+        { "keys": "ctrl+shift+5", "id": null },
+        { "keys": "ctrl+shift+6", "id": null },
+        { "keys": "ctrl+shift+7", "id": null },
+        { "keys": "ctrl+shift+8", "id": null },
+        { "keys": "ctrl+shift+9", "id": null },
+        { "keys": "ctrl+shift+,", "id": null },
+        { "keys": "ctrl+shift+period", "id": null },
+        { "keys": "ctrl+shift+space", "id": null },
+        { "keys": "ctrl+shift+tab", "id": null },
+        { "keys": "ctrl+shift+down", "id": null },
+        { "keys": "ctrl+shift+up", "id": null },
+        { "keys": "ctrl+shift+end", "id": null },
+        { "keys": "ctrl+shift+home", "id": null },
+        { "keys": "shift+insert", "id": null },
+        { "keys":"win+sc(41)", "id": null },
+        {
+            "id": "Terminal.ScrollDown",
+            "keys": "ctrl+shift+n"
+        },
+        {
+            "id": "Terminal.ScrollDown",
+            "keys": "ctrl+shift+down"
+        },
+        {
+            "id": "Terminal.ScrollUp",
+            "keys": "ctrl+shift+e"
+        },
+        {
+            "id": "Terminal.ScrollUp",
+            "keys": "ctrl+shift+up"
+        },
+        {
+            "id": "Terminal.ScrollDownPage",
+            "keys": "ctrl+shift+f"
+        },
+        {
+            "id": "Terminal.ScrollDownPage",
+            "keys": "ctrl+shift+pgdn"
+        },
+        {
+            "id": "Terminal.ScrollUpPage",
+            "keys": "ctrl+shift+b"
+        },
+        {
+            "id": "Terminal.ScrollUpPage",
+            "keys": "ctrl+shift+pgdn"
+        },
+        {
+            "id": "User.scrollToMark.next",
+            "keys": "ctrl+shift+y"
+        },
+        {
+            "id": "User.scrollToMark.prev",
+            "keys": "ctrl+shift+j"
+        },
+        {
+            "id": "Terminal.ScrollToBottom",
+            "keys": "ctrl+shift+end"
+        },
+        {
+            "id": "Terminal.ScrollToTop",
+            "keys": "ctrl+shift+home"
+        },
+        {
+            "id": "Terminal.FindText",
+            "keys": "ctrl+shift+/"
+        },
+        {
+            "id": "Terminal.CopyToClipboard",
+            "keys": "ctrl+shift+c"
+        },
+        {
+            "id": "Terminal.PasteFromClipboard",
+            "keys": "ctrl+shift+v"
+        },
+        {
+            "id": "User.selectCommand.next",
+            "keys": "ctrl+shift+l"
+        },
+        {
+            "id": "User.selectCommand.prev",
+            "keys": "ctrl+shift+u"
+        },
+        {
+            "id": "Terminal.SelectAll",
+            "keys": "ctrl+shift+a"
+        },
+        {
+            "id": "Terminal.IncreaseFontSize",
+            "keys": "ctrl+plus"
+        },
+        {
+            "id": "Terminal.IncreaseFontSize",
+            "keys": "ctrl+shift+="
+        },
+        {
+            "id": "Terminal.IncreaseFontSize",
+            "keys": "ctrl+numpad_plus"
+        },
+        {
+            "id": "Terminal.DecreaseFontSize",
+            "keys": "ctrl+minus"
+        },
+        {
+            "id": "Terminal.DecreaseFontSize",
+            "keys": "ctrl+numpad_minus"
+        },
+        {
+            "id": "Terminal.ResetFontSize",
+            "keys": "ctrl+0"
+        },
+        {
+            "id": "Terminal.ResetFontSize",
+            "keys": "ctrl+numpad_0"
+        },
+        {
+            "id": "Terminal.ToggleCommandPalette",
+            "keys": "ctrl+shift+p"
+        },
+        {
+            "id": "Terminal.MoveFocusLeft",
+            "keys": "alt+m"
+        },
+        {
+            "id": "Terminal.MoveFocusLeft",
+            "keys": "alt+left"
+        },
+        {
+            "id": "Terminal.MoveFocusDown",
+            "keys": "alt+n"
+        },
+        {
+            "id": "Terminal.MoveFocusDown",
+            "keys": "alt+down"
+        },
+        {
+            "id": "Terminal.MoveFocusUp",
+            "keys": "alt+e"
+        },
+        {
+            "id": "Terminal.MoveFocusUp",
+            "keys": "alt+up"
+        },
+        {
+            "id": "Terminal.MoveFocusRight",
+            "keys": "alt+i"
+        },
+        {
+            "id": "Terminal.MoveFocusRight",
+            "keys": "alt+right"
+        },
+        {
+            "id": "Terminal.MoveFocusParent",
+            "keys": "alt+comma"
+        },
+        {
+            "id": "Terminal.MoveFocusChild",
+            "keys": "alt+period"
+        },
+        {
+            "id": "Terminal.SwapPaneLeft",
+            "keys": "alt+shift+m"
+        },
+        {
+            "id": "Terminal.SwapPaneLeft",
+            "keys": "alt+shift+left"
+        },
+        {
+            "id": "Terminal.SwapPaneDown",
+            "keys": "alt+shift+n"
+        },
+        {
+            "id": "Terminal.SwapPaneDown",
+            "keys": "alt+shift+down"
+        },
+        {
+            "id": "Terminal.SwapPaneUp",
+            "keys": "alt+shift+e"
+        },
+        {
+            "id": "Terminal.SwapPaneUp",
+            "keys": "alt+shift+up"
+        },
+        {
+            "id": "Terminal.SwapPaneRight",
+            "keys": "alt+shift+i"
+        },
+        {
+            "id": "Terminal.SwapPaneRight",
+            "keys": "alt+shift+right"
+        },
+        {
+            "id": "Terminal.ResizePaneLeft",
+            "keys": "alt+ctrl+m"
+        },
+        {
+            "id": "Terminal.ResizePaneLeft",
+            "keys": "alt+ctrl+left"
+        },
+        {
+            "id": "Terminal.ResizePaneDown",
+            "keys": "alt+ctrl+n"
+        },
+        {
+            "id": "Terminal.ResizePaneDown",
+            "keys": "alt+ctrl+down"
+        },
+        {
+            "id": "Terminal.ResizePaneUp",
+            "keys": "alt+ctrl+e"
+        },
+        {
+            "id": "Terminal.ResizePaneUp",
+            "keys": "alt+ctrl+up"
+        },
+        {
+            "id": "Terminal.ResizePaneRight",
+            "keys": "alt+ctrl+i"
+        },
+        {
+            "id": "Terminal.ResizePaneRight",
+            "keys": "alt+ctrl+right"
+        },
+        {
+            "id": "Terminal.DuplicatePaneAuto",
+            "keys": "alt+enter"
+        },
+        {
+            "id": "Terminal.ClosePane",
+            "keys": "alt+q"
+        },
+        {
+            "id": "Terminal.SwitchToTab0",
+            "keys": "alt+1"
+        },
+        {
+            "id": "Terminal.SwitchToTab1",
+            "keys": "alt+2"
+        },
+        {
+            "id": "Terminal.SwitchToTab2",
+            "keys": "alt+3"
+        },
+        {
+            "id": "Terminal.SwitchToTab3",
+            "keys": "alt+4"
+        },
+        {
+            "id": "Terminal.SwitchToTab4",
+            "keys": "alt+5"
+        },
+        {
+            "id": "Terminal.SwitchToTab5",
+            "keys": "alt+6"
+        },
+        {
+            "id": "Terminal.SwitchToTab6",
+            "keys": "alt+7"
+        },
+        {
+            "id": "Terminal.SwitchToTab7",
+            "keys": "alt+8"
+        },
+        {
+            "id": "Terminal.SwitchToLastTab",
+            "keys": "alt+9"
+        },
+        {
+            "id": "User.switchToTab.prev",
+            "keys": "alt+j"
+        },
+        {
+            "id": "User.switchToTab.next",
+            "keys": "alt+y"
+        },
+        {
+            "id": "User.switchToTab.lastUsed",
+            "keys": "alt+l"
+        },
+        {
+            "id": "Terminal.MovePaneToTab0",
+            "keys": "alt+shift+1"
+        },
+        {
+            "id": "Terminal.MovePaneToTab1",
+            "keys": "alt+shift+2"
+        },
+        {
+            "id": "Terminal.MovePaneToTab2",
+            "keys": "alt+shift+3"
+        },
+        {
+            "id": "Terminal.MovePaneToTab3",
+            "keys": "alt+shift+4"
+        },
+        {
+            "id": "Terminal.MovePaneToTab4",
+            "keys": "alt+shift+5"
+        },
+        {
+            "id": "Terminal.MovePaneToTab5",
+            "keys": "alt+shift+6"
+        },
+        {
+            "id": "Terminal.MovePaneToTab6",
+            "keys": "alt+shift+7"
+        },
+        {
+            "id": "Terminal.MovePaneToTab7",
+            "keys": "alt+shift+8"
+        },
+        {
+            "id": "Terminal.MovePaneToTab8",
+            "keys": "alt+shift+9"
+        },
+        {
+            "id": "Terminal.MoveTabBackward",
+            "keys": "alt+;"
+        },
+        {
+            "id": "Terminal.MoveTabForward",
+            "keys": "alt+shift+;"
+        },
+        {
+            "id": "Terminal.DuplicateTab",
+            "keys": "alt+shift+enter"
+        },
+        {
+            "id": "Terminal.OpenNewTabDropdown",
+            "keys": "alt+ctrl+shift+enter"
+        },
+        {
+            "id": "Terminal.TogglePaneZoom",
+            "keys": "alt+t"
+        },
+        {
+            "id": "Terminal.ToggleSplitOrientation",
+            "keys": "alt+h"
+        },
+        {
+            "id": "Terminal.ToggleFullscreen",
+            "keys": "f11"
+        },
+        {
+            "id": "Terminal.OpenNewWindow",
+            "keys": "alt+ctrl+enter"
+        },
+        {
+            "id": "Terminal.CloseWindow",
+            "keys": "alt+f4"
+        }
+    ],
+    "launchMode": "default",
+    "newTabMenu": 
+    [
+        {
+            "type": "remainingProfiles"
+        }
+    ],
+    "newTabPosition": "afterCurrentTab",
+    "profiles": 
+    {
+        "defaults": 
+        {
+            "altGrAliasing": false,
+            "autoMarkPrompts": true,
+            "bellStyle": "taskbar",
+            "colorScheme": "Nord",
+            "cursorShape": "filledBox",
+            "experimental.retroTerminalEffect": false,
+            "font": 
+            {
+                "face": "Roboto Mono, Symbols Nerd Font Mono",
+                "size": 11
+            },
+            "historySize": 9001,
+            "opacity": 100,
+            "padding": "0",
+            "scrollbarState": "visible",
+            "showMarksOnScrollbar": true,
+            "suppressApplicationTitle": false,
+            "useAcrylic": false
+        },
+        "list": 
+        [
+            {
+                "guid": "{1ce13ac7-07ef-5585-99d2-b71e6d33576e}",
+                "hidden": false,
+                "name": "ArchLinux",
+                "source": "Microsoft.WSL"
+            },
+            {
+                "commandline": "C:\\Users\\oliraher\\AppData\\Local\\Git\\bin\\bash.exe",
+                "guid": "{c77404db-2ce2-4384-94f8-109e6870ca46}",
+                "hidden": false,
+                "icon": "C:\\Users\\oliraher\\AppData\\Local\\Git\\mingw64\\share\\git\\git-for-windows.ico",
+                "name": "Git Bash",
+                "startingDirectory": "%USERPROFILE%\\WorkGit"
+            },
+            {
+                "commandline": "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+                "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+                "hidden": false,
+                "name": "Windows PowerShell"
+            },
+            {
+                "commandline": "%SystemRoot%\\System32\\cmd.exe",
+                "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+                "hidden": false,
+                "name": "Command Prompt"
+            }
+        ]
+    },
+    "schemes": 
+    [
+        {
+            "background": "#2E3440",
+            "black": "#3B4252",
+            "blue": "#81A1C1",
+            "brightBlack": "#4C566A",
+            "brightBlue": "#81A1C1",
+            "brightCyan": "#8FBCBB",
+            "brightGreen": "#A3BE8C",
+            "brightPurple": "#B48EAD",
+            "brightRed": "#BF616A",
+            "brightWhite": "#ECEFF4",
+            "brightYellow": "#EBCB8B",
+            "cursorColor": "#81A1C1",
+            "cyan": "#88C0D0",
+            "foreground": "#D8DEE9",
+            "green": "#A3BE8C",
+            "name": "Nord",
+            "purple": "#B48EAD",
+            "red": "#BF616A",
+            "selectionBackground": "#434C5E",
+            "white": "#E5E9F0",
+            "yellow": "#EBCB8B"
+        },
+        {
+            "background": "#161821",
+            "black": "#242424",
+            "blue": "#89A0C3",
+            "brightBlack": "#606060",
+            "brightBlue": "#7494CC",
+            "brightCyan": "#7FC0D1",
+            "brightGreen": "#BFCE7D",
+            "brightPurple": "#9F91D8",
+            "brightRed": "#E5706E",
+            "brightWhite": "#F7F7F7",
+            "brightYellow": "#EAA872",
+            "cursorColor": "#C6C8D1",
+            "cyan": "#92B7C0",
+            "foreground": "#C6C8D1",
+            "green": "#B6BD88",
+            "name": "iceberg-dark",
+            "purple": "#9E95C4",
+            "red": "#D47D7B",
+            "selectionBackground": "#C6C8D1",
+            "white": "#C6C8D1",
+            "yellow": "#D9A67E"
+        }
+    ],
+    "showTabsInTitlebar": true,
+    "showTerminalTitleInTitlebar": false,
+    "tabWidthMode": "equal",
+    "theme": "dark",
+    "themes": 
+    [
+        {
+            "name": null
+        }
+    ],
+    "useAcrylicInTabRow": false,
+    "warning.confirmCloseAllTabs": true,
+    "warning.inputService": false
+}
