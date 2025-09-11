@@ -4,6 +4,22 @@
     "actions": 
     [
         {
+            "command":
+            {
+                "action": "scrollDown",
+                "rowsToScroll": 25
+            },
+            "id": "User.scrollDown.halfPage"
+        },
+        {
+            "command":
+            {
+                "action": "scrollUp",
+                "rowsToScroll": 25
+            },
+            "id": "User.scrollUp.halfPage"
+        },
+        {
             "command": 
             {
                 "action": "scrollToMark",
@@ -122,6 +138,14 @@
         { "keys": "ctrl+shift+home", "id": null },
         { "keys": "shift+insert", "id": null },
         { "keys":"win+sc(41)", "id": null },
+        {
+            "id": "User.scrollDown.halfPage",
+            "keys": "ctrl+shift+d"
+        },
+        {
+            "id": "User.scrollUp.halfPage",
+            "keys": "ctrl+shift+u"
+        },
         {
             "id": "Terminal.ScrollDown",
             "keys": "ctrl+shift+n"
