@@ -20,22 +20,6 @@
             "id": "User.scrollToMark.next"
         },
         {
-            "command":
-            {
-                "action": "selectCommand",
-                "direction": "prev"
-            },
-            "id": "User.selectCommand.prev"
-        },
-        {
-            "command":
-            {
-                "action": "selectCommand",
-                "direction": "next"
-            },
-            "id": "User.selectCommand.next"
-        },
-        {
             "command": 
             {
                 "action": "prevTab",
@@ -197,14 +181,6 @@
         {
             "id": "Terminal.PasteFromClipboard",
             "keys": "ctrl+shift+v"
-        },
-        {
-            "id": "User.selectCommand.next",
-            "keys": "ctrl+shift+l"
-        },
-        {
-            "id": "User.selectCommand.prev",
-            "keys": "ctrl+shift+u"
         },
         {
             "id": "Terminal.SelectAll",
